@@ -1,0 +1,116 @@
+.characterPage {
+    box-sizing: border-box;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 1440px;
+    height: 100%;
+}
+
+.characterLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 21px auto 31px 50px;
+
+    text-decoration: none;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+        
+    color: #000000;
+}
+
+.characterPageLayout {
+    margin-right: 8px;
+}
+
+
+
+.characterUnit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.characterUnitImage {
+    display: block;
+    margin: auto;
+    margin-bottom: 16px;
+
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.characterUnitTitle {
+    margin: auto;
+    margin-bottom: 48px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #081F32;
+}
+
+.characterUnitPreTitle {
+    margin: auto;
+    margin-bottom: 48px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+
+    color: #8E8E93;
+}
+
+.characterUnitList {
+    min-width: 413px;
+    margin: auto;
+
+    list-style: none;
+}
+
+.characterUnitItem {
+    border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+}
+
+.characterUnitItemTitle {
+    margin: 0;
+    padding-top: 9px;
+    padding-left: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+
+    color: #081F32;
+}
+
+.characterUnitItemDescription {
+    margin: 0;
+    padding-left: 16px;
+    padding-bottom: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+
+    color: #6E798C;
+}

@@ -1,0 +1,42 @@
+.searchForm{
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    min-height: 66px;
+
+    margin-bottom: 61px;
+}
+
+.searchQueryInput {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 16px 16px 48px;
+
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.searchQueryLabel {
+    height: 24px;
+    max-width: 956px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.filterSearchIcon {
+    position: absolute;
+    padding: 16px;
+
+    width: 24px;
+    height: 24px;
+}

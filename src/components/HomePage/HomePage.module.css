@@ -1,0 +1,25 @@
+.homePage {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 86px 210px 51px;
+    flex-direction: column;
+    max-width: 1440px;
+    height: 100%;
+}
+
+.homePageLayout {
+    display: flex;
+    justify-content: center;
+}
+
+.homePageLogo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    margin-bottom: 16px;
+}
+
+
+
+
